@@ -10,7 +10,7 @@ public class CategoryDTO implements Serializable {
     @Serial
     private static final long serialVersionUID = 1L;
 
-    private long id;
+    private Long id;
     private String name;
 
     public CategoryDTO() {}
