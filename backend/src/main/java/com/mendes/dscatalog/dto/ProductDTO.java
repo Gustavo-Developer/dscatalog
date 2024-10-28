@@ -2,7 +2,6 @@ package com.mendes.dscatalog.dto;
 
 import com.mendes.dscatalog.entities.Category;
 import com.mendes.dscatalog.entities.Product;
-import jakarta.persistence.Column;
 
 import java.io.Serial;
 import java.io.Serializable;

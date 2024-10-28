@@ -3,21 +3,21 @@ package com.mendes.dscatalog.services;
 import com.mendes.dscatalog.dto.CategoryDTO;
 import com.mendes.dscatalog.entities.Category;
 import com.mendes.dscatalog.repositories.CategoryRepository;
+
 import com.mendes.dscatalog.services.exceptions.DatabaseException;
 import com.mendes.dscatalog.services.exceptions.ResourceNotFoundException;
+
 import jakarta.persistence.EntityNotFoundException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class CategoryService {
